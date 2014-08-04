@@ -19,7 +19,7 @@ DAEMON_OPTS="-c $CONFIG"
 DESC="New Relic Plugin Agent"
 TIMEOUT=5
 PIDDIR_MODE=755
-PIDDIR_OWNER=
+PIDDIR_OWNER="newrelic"
 PIDDIR_OWNER_FALLBACK="root"
 
 # Include newrelic plugin agent defaults if available
